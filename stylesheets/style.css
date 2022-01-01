@@ -1,0 +1,142 @@
+body{
+    margin: 0%;
+}
+/*vertical-scroll-menu*/
+.vertical-scroll-menu {
+    font-family: Montserrat;
+    color:white;
+    overflow-y:auto;
+    width:200px;
+    height:535px;
+    background-color:black;
+    position:fixed;
+    text-align: left;
+    padding:50px;
+    text-transform: uppercase;
+    float: left;
+}
+
+/*domain picture*/
+.dp {
+    height:150px;
+    width:150px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    right:5px;
+}
+
+/*Name*/
+.name {
+    font-size:20px;
+}
+
+/*Links*/
+a {
+    color:white;
+    text-decoration:none;
+    font-size: 14px;
+    font-weight: 700;   
+}
+
+a:hover{
+    text-decoration:underline;
+    text-decoration-color: #1E90FF;
+    text-decoration-thickness:5px;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+li{
+   margin:20px 0;
+}
+
+/*social links*/
+.social-links {
+    cursor: pointer;
+    margin:50px 0 0 0;
+    
+}
+
+/*Get in touch*/
+h4{
+    font-size:20px;
+}
+
+/*Copyright line*/
+h5{
+    color:#778899;
+    text-transform:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Icons*/
+svg {
+    margin:0 16px 0 16px;
+}
+
+svg:hover {
+    color: #1E90FF;
+}
+
+/*Main container*/
+.main-container {
+    height: 1000px;
+    width: 1050px;
+    background-color:black;
+    float: right;
+
+}
+
+#home {
+
+}
+
+.greet-message {
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    font-size:72px;
+    line-height:0.9em;
+    font-weight:900;
+    font-family: Montserrat;
+    margin:100px 20px;
+    position: absolute;
+    top:100px;
+    left:473px;
+    
+}
+
+.intro {
+    color:#778899;
+    font-family:Lato,serif;
+    font-size: 1.2rem;
+    position:absolute;
+    top:300px;
+    padding: 0px 200px;
+    line-height: 1.5;
+    
+}
+
+button {
+    cursor: pointer;
+    font-family:Montserrat;
+    padding:15px 20px;
+    position: absolute;
+    top:470px;
+}
+
+.portfolio{
+    color:white;
+    background-color:#1E90FF;
+    border:none;
+    left:493px;
+}
+
+.hire{
+    color:#1E90FF;
+    background-color:black;
+    border-color:#1E90FF;
+    left:693px;
+}
