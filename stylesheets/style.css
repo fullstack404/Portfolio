@@ -1,12 +1,25 @@
 body{
     margin: 0%;
+    background-color:black;
+}
+
+p{
+    color:#778899;
+    font-family: "Lato", sans-serif;
+}
+
+h4{
+    color:white;
+    font-size:18px;
+    font-weight:700;
+    font-family: Montserrat;
 }
 /*vertical-scroll-menu*/
 .vertical-scroll-menu {
     font-family: Montserrat;
     color:white;
     overflow-y:auto;
-    width:200px;
+    width:180px;
     height:535px;
     background-color:black;
     position:fixed;
@@ -61,7 +74,7 @@ li{
 
 /*Get in touch*/
 h4{
-    font-size:20px;
+    font-size:18px;
 }
 
 /*Copyright line*/
@@ -80,17 +93,13 @@ svg:hover {
     color: #1E90FF;
 }
 
-/*Main container*/
-.main-container {
-    height: 1000px;
-    width: 1050px;
-    background-color:black;
-    float: right;
-
-}
-
-#home {
-
+/*Home section*/
+.home {
+    width: 583px;
+    color:white;
+    position:relative;
+    left:280px;
+    padding:150px 200px;
 }
 
 .greet-message {
@@ -101,42 +110,109 @@ svg:hover {
     line-height:0.9em;
     font-weight:900;
     font-family: Montserrat;
-    margin:100px 20px;
-    position: absolute;
-    top:100px;
-    left:473px;
-    
+    margin-top:0;
 }
 
 .intro {
-    color:#778899;
     font-family:Lato,serif;
     font-size: 1.2rem;
-    position:absolute;
-    top:300px;
-    padding: 0px 200px;
     line-height: 1.5;
-    
 }
 
-button {
+.home button {
     cursor: pointer;
     font-family:Montserrat;
     padding:15px 20px;
-    position: absolute;
-    top:470px;
+    margin:20px  0; 
+    height:50px;
 }
 
 .portfolio{
     color:white;
     background-color:#1E90FF;
     border:none;
-    left:493px;
 }
 
 .hire{
     color:#1E90FF;
     background-color:black;
     border-color:#1E90FF;
-    left:693px;
+    border-width:2px;   
+}
+
+/*Qualification section*/
+
+.qualification{
+    position:relative;
+    left:280px;
+    width: 583px;
+    padding:50px 100px;
+    display:inline-block;
+}
+
+h2{
+    color:white;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight:900px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.square{
+    height:10px;
+    width:10px;
+    background-color:#1E90FF;
+    display: inline-block;
+}
+
+.qualification h4{
+    display: inline-block;
+    margin: 15px 0 0 40px;
+}
+
+.qualification p{
+    margin-left:55px;
+    display: inline-block;
+    margin-top:10px;
+    line-height:0.8;
+}
+
+.qualification h5{
+    color:#778899;
+    display: inline-block;
+    font-family:Lato;
+}
+
+.vl{
+    border-left: 1px solid rgb(92, 95, 92);
+    height: 205px;
+    position: absolute;
+    left:105px;
+    top:251px;
+
+}
+
+.experience {
+    position:relative;
+    left:280px;
+    width: 583px;
+    padding:50px 100px;
+}
+.experience h4{
+    display: inline-block;
+    margin: 15px 0 0 40px;
+}
+
+.experience p{
+    margin-left:55px;
+    display: inline-block;
+    margin-top:10px;
+    line-height:0.8;
+}
+
+.experience h5{
+    color:#778899;
+    display: inline-block;
+    font-family:Lato;
 }
