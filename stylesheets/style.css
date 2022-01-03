@@ -15,6 +15,7 @@ h4{
     font-weight:700;
     font-family: Montserrat;
 }
+
 /*vertical-scroll-menu*/
 .vertical-scroll-menu {
     font-family: Montserrat;
@@ -189,6 +190,8 @@ h2{
 
 }
 
+/*Experience section*/
+
 .experience {
     position:relative;
     left:280px;
@@ -212,6 +215,8 @@ h2{
     display: inline-block;
     font-family:Lato;
 }
+
+/*Skills section*/
 
 .skills {
     position:relative;
