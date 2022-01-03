@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     background-color:black;
+    box-sizing:border-box
 }
 
 p{
@@ -24,7 +25,7 @@ h4{
     background-color:black;
     position:fixed;
     text-align: left;
-    padding:50px;
+    padding:50px 30px 50px 50px;
     text-transform: uppercase;
     float: left;
 }
@@ -70,11 +71,6 @@ li{
     cursor: pointer;
     margin:50px 0 0 0;
     
-}
-
-/*Get in touch*/
-h4{
-    font-size:18px;
 }
 
 /*Copyright line*/
@@ -215,4 +211,56 @@ h2{
     color:#778899;
     display: inline-block;
     font-family:Lato;
+}
+
+.skills {
+    position:relative;
+    left:280px;
+    width: 63%;
+    padding:50px 100px;
+}
+
+.container{
+    width:50%;
+    display: inline-block;
+}
+
+.skill-bar {
+    width: 90%; /* Full width */
+    background-color:#778899; /* Grey background */
+    height:5px;
+}
+
+.skills h6{
+    display: inline-block;
+    color:white;
+    font-size:15px;
+}
+
+.skills h4{
+    display: inline-block;
+}
+
+.html { 
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.css { 
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.js { 
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.py { 
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
 }
