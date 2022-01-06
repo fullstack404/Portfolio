@@ -71,6 +71,7 @@ li{
 .social-links {
     cursor: pointer;
     margin:50px 0 0 0;
+    text-align: center;
     
 }
 
@@ -82,11 +83,12 @@ h5{
 }
 
 /*Icons*/
-svg {
+i {
     margin:0 16px 0 16px;
+    font-size: 18px;
 }
 
-svg:hover {
+.social-links i:hover {
     color: #1E90FF;
 }
 
@@ -264,8 +266,49 @@ h2{
     height:5px;
 }
 
+.bs {
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.rjs {
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
 .py { 
     width: 70%; /* Full width */
     background-color:#1E90FF; /* Grey background */
     height:5px;
+}
+
+.git {
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.github {
+    width: 70%; /* Full width */
+    background-color:#1E90FF; /* Grey background */
+    height:5px;
+}
+
+.certifications {
+    position:relative;
+    left:280px;
+    width: 63%;
+    padding:50px 100px;   
+}
+
+.certifications li{
+    color:#778899;
+    font-family: Lato;
+
+}
+
+span{
+    color:white;
 }
