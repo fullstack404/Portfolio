@@ -91,14 +91,14 @@ i {
 .social-links i:hover {
     color: #1E90FF;
 }
-
+/*----------------------------------------------------------------------------------------------------------------*/
 /*Home section*/
 .home {
     width: 583px;
     color:white;
     position:relative;
     left:280px;
-    padding:150px 200px;
+    padding:100px 200px;
 }
 
 .greet-message {
@@ -138,6 +138,7 @@ i {
     border-color:#1E90FF;
     border-width:2px;   
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
 /*Qualification section*/
 
@@ -145,7 +146,7 @@ i {
     position:relative;
     left:280px;
     width: 583px;
-    padding:50px 100px;
+    padding:100px 100px;
     display:inline-block;
 }
 
@@ -191,6 +192,7 @@ h2{
     top:251px;
 
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
 /*Experience section*/
 
@@ -198,7 +200,7 @@ h2{
     position:relative;
     left:280px;
     width: 583px;
-    padding:50px 100px;
+    padding:100px 100px;
 }
 .experience h4{
     display: inline-block;
@@ -217,6 +219,16 @@ h2{
     display: inline-block;
     font-family:Lato;
 }
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*Works section*/
+.works{
+    position:relative;
+    left:280px;
+    width: 583px;
+    padding:200px 100px;
+}
+/*----------------------------------------------------------------------------------------------------------------*/
 
 /*Skills section*/
 
@@ -224,7 +236,7 @@ h2{
     position:relative;
     left:280px;
     width: 63%;
-    padding:50px 100px;
+    padding:100px 100px;
 }
 
 .container{
@@ -295,12 +307,14 @@ h2{
     background-color:#1E90FF; /* Grey background */
     height:5px;
 }
+/*----------------------------------------------------------------------------------------------------------------*/
 
+/*Certifications section*/
 .certifications {
     position:relative;
     left:280px;
     width: 63%;
-    padding:50px 100px;   
+    padding:100px 100px;   
 }
 
 .certifications li{
@@ -311,4 +325,38 @@ h2{
 
 span{
     color:white;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*Hobbies section*/
+.hobbies {
+    position:relative;
+    left:280px;
+    width: 63%;
+    padding:100px 100px; 
+}
+
+.hobbies-container {
+    height:100px;
+    width:100px;
+    display: inline-block;
+    background-color:#1E90FF;
+    margin: 0 30px;
+    text-align: center;
+    color:white;
+    
+}
+
+.hobbies-container i{
+    position:relative;
+    top:35px;
+    font-size: 30px;
+}
+
+.hobbies h6{
+    font-family: Lato;
+    font-size:15px;
+    color: #778899;
+    display: inline-block;
+    text-align: center;
 }
